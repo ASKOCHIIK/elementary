@@ -1,6 +1,13 @@
-def func(x, d):
-    return x + d
-def "Мен кандайдыр бир непсе жазышым керек"
+x = 25
+i = 50
+v = i + x
+print(v)
 
 
-print(func(14, 12))
+while True:
+    name = input('enter number: ')
+    if name == 'Aibek':
+        print('kutuktaibyz!')
+        break
+    else:
+        continue
